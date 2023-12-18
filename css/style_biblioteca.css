@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+htmml {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: #8B7399;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+main {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-type {
+    width: 70%;
+    height: 80px;
+    background-color: #8B7399;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #C0F7FF;
+}
+.selected {
+    border-bottom: 10px solid #C0F7FF;
+
+}
+
+
+.list-book {
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.book-item {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+footer {
+    width: 100%;
+    height: 3vh;
+    background-color: #8B7399;
+}
+
